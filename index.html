@@ -1,3 +1,5 @@
+<div id="container">
+
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzbojrgg" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
@@ -9,7 +11,17 @@
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
   <input type="submit" value="Submit">
-</form><style>/* reset */
+</form>
+</div>
+
+<style>
+  #container {
+    display: table;
+    margin: 20px auto 0 auto;
+    width:700px;
+
+  }
+/* reset */
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
